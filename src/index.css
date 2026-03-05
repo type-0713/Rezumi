@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,600,100&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --font-body: "Plus Jakarta Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: #0f172a;
+  background:
+    radial-gradient(1200px 500px at 0% 0%, rgba(125, 211, 252, 0.22), transparent 60%),
+    radial-gradient(1000px 420px at 100% 100%, rgba(253, 224, 71, 0.16), transparent 60%),
+    #f8fafc;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
